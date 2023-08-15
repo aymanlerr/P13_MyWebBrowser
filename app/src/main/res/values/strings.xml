@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">P13_MyWebBrowser</string>
+    <string name="load_url">Load URL</string>
+</resources>
