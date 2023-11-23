@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnLoadUrl = (Button) findViewById(R.id.btnLoadUrl);
-        wvMyPage = (WebView) findViewById(R.id.wvMyPage);
+        btnLoadUrl = findViewById(R.id.btnLoadUrl);
+        wvMyPage = findViewById(R.id.wvMyPage);
 
         wvMyPage.setWebViewClient(new WebViewClient());
 
